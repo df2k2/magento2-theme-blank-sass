@@ -4,17 +4,17 @@
     "license": "MIT",
     "type": "magento2-theme",
     "require": {
-        "magento/framework": "102.0.*"
     },
     "autoload": {
         "files": [
             "registration.php"
         ]
     },
-     "repositories": [
-        {
-            "type": "git",
-            "url": "git@github.com:df2k2/magento2-theme-blank-sass.git"
-        }
-    ],
+  "minimum-stability": "alpha",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/df2k2/magento2-theme-blank-sass"
+    }
+  ]
 }
